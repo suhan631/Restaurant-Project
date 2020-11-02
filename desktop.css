@@ -1,0 +1,120 @@
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.menu{
+    margin-top: 30px;
+}
+.icon img{
+    margin-right: 160px;
+}
+
+.d1{
+    z-index: 2;
+    width: 300px;
+    background-color: violet;
+    margin: 0 auto;
+    position: absolute;
+    right: 500px;
+    top: 400px;
+}
+.d2{
+    z-index: 2;
+    width: 250px;
+    background-color: rebeccapurple;
+    margin: 0 auto;
+    position: absolute;
+    right: 520px;
+    bottom: 320px;
+}
+.d3{
+    background-color: red;
+    margin: 0 auto;
+    z-index: 2;
+    margin: 0 auto;
+    position: absolute;
+    right: 590px;
+    bottom: 260px;
+}
+.d3 button{
+    
+    transition: transform .4s;
+}
+.d3 button:hover{
+    transform: scale(1.5);
+}
+.container{
+    position: relative;
+}
+.mobile{
+    position: absolute;
+    bottom: 230px;
+    right: 525px;
+    z-index: 2;
+    width: 200px;
+    
+    color: red;
+    display: none;
+}
+.container:hover .mobile{
+    display: block;
+}
+.mobile a{
+    color: red;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+.menu a{
+    margin: 10px auto;
+    color: white;
+    text-decoration: none;
+    width: 200px;
+    height: 20px;
+    transition: 3s;
+}
+.menu a:hover{
+    background-color: black;
+    border-radius: 15px;
+}
+.items{
+   text-align: center;
+   color: white;
+}
+.buna{
+    text-align: center;
+    background-color: brown;
+    margin-right: 5px;
+    margin-left: 15px;
+    width: 315px;
+}
+.birani{
+    text-align: center;
+    background-color: cadetblue;
+    margin-right: 5px;
+    width: 315px;
+}
+.kacchi{
+    text-align: center;
+    background-color: chartreuse;
+    margin-right: 5px;
+    width: 315px;
+}
+.fish{
+    text-align: center;
+    background-color: darkblue;
+    
+    width: 315px;
+}

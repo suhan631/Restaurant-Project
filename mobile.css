@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+    
+}
+.navbar{
+    background-color: blueviolet;
+    text-align: center;
+}
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+}
+[class*="col-"]{
+    width: 100%;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+.menu a{
+    margin: 10px auto;
+    color: white;
+    text-decoration: none;
+    width: 200px;
+    height: 20px;
+    transition: 3s;
+}
+.menu a:hover{
+    background-color: black;
+    border-radius: 15px;
+}
+.icon img{
+    border: none;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.navbar::after{
+    display: table;
+    content: '';
+    clear: both;
+}
+.about-section p{
+    font-size: 1.5rem;
+    color: red;
+}
+.picture{
+     margin: 0 auto;
+     position: relative;
+     z-index: 1;
+}
+.pic img{
+    width: 100%;
+}
+.h2,h3,h4{
+    text-align: center;
+}
+.d1 h2{
+    text-align: center;
+}
+.d1{
+    z-index: 2;
+    width: 300px;
+    background-color: violet;
+    margin: 0 auto;
+    position: absolute;
+    right: 200px;
+    top: 200px;
+}
+.d2{
+    z-index: 2;
+    width: 250px;
+    background-color: rebeccapurple;
+    margin: 0 auto;
+    position: absolute;
+    right: 215px;
+    bottom: 120px;
+}
+.d3{
+    
+    
+    margin: 0 auto;
+    z-index: 2;
+    margin: 0 auto;
+    position: absolute;
+    right: 280px;
+    bottom: 80px;
+}
+.picture{
+    display: table;
+    content: '';
+    clear: both;
+}
+.d3 button{
+    text-align: center;
+    background-color: brown;
+    width: 100px;
+    height: 30px;
+}
+.about-section{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.about-section::after{
+    display: table;
+    content: '';
+    clear: both;
+}
+
+h4{
+    width: 100%;
+    background-color: dimgray;
+    font-size: 2rem;
+}
+
+.items img{
+    height: 300px;
+}
+.heading h1{
+    background-color: teal;
+    color: white;
+    text-align: center;
+    font-family: fantasy;
+    text-shadow: 3px 4px tomato;
+}
+.items{
+    text-align: center;
+    color: white;
+}
+.buna{
+    background-color: teal;
+    margin-bottom: 10px;
+}
+.buna:hover{
+    box-shadow: 4px 4px 4px 4px black;
+}
+.birani{
+    background-color: greenyellow ;
+    margin-bottom: 10px;
+}
+.birani:hover{
+    box-shadow: 4px  4px 4px 4px  black;
+}
+.kacchi{
+    background-color: hotpink;
+    margin-bottom: 10px;
+}
+.kacchi:hover{
+    box-shadow: 4px  4px 4px 4px black;
+}
+.fish{
+    background-color: lightseagreen;
+    margin-bottom: 10px;
+}
+.fish:hover{
+    box-shadow: 4px 4px 4px 4px black;
+}
+.map-section{
+    text-align: center;
+    color: tomato;
+    background-color: teal;
+}
+.map1{
+    width: 100%;
+    height: 250px;
+}
+.map-section::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+#suhan{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+}
